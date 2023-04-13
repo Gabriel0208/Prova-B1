@@ -1,0 +1,115 @@
+body {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(37, 37, 66);
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+header div#texto {
+    color: white;
+    display: inline-block;
+    width: 70%;
+    font-size: larger;
+
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header div#texto h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header div#lista1 {
+    color: white;
+    font-size: larger;
+
+}
+
+#perfil {
+    width: 10%;
+}
+
+header div#lista1 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: auto;
+}
+
+div#lista1 ul li {
+    margin-right: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+main {
+    background-color: beige;
+}
+
+main div#titulo {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main div#lista2 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    font-size: larger;
+}
+
+main div#lista2 ul {
+    margin-top: 60px;
+    display: flex;
+    align-content: space-between;
+}
+
+div#lista2 ul li {
+    margin-right: 200px;
+    list-style: none;
+    margin-bottom: 30px;
+
+}
+
+main div#principal {
+    display: flex;
+    width: 100%;
+}
+
+div#principal div#conteudo {
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+
+main div#botao {
+    margin-left: 30px;
+
+}
+
+button {
+    font-style: oblique;
+    font-size: 30px;
+    border-radius: 10%;
+    background-color: aqua;
+}
+
+.pequeno {
+    width: 60px;
+}
